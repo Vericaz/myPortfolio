@@ -1,0 +1,27 @@
+/* .contact_btn {
+  padding-top: 30px;
+} */
+.contact_info_item {
+  font-size: 14px im !important;
+  color: #787878;
+  line-height: 34px !important;
+}
+
+.contact_info_item > span {
+  color: black;
+  font-weight: 500;
+}
+
+.contact_info_socials_container {
+  margin-top: 25px;
+}
+
+.contact_info_social > a > .MuiSvgIcon-root {
+  font-size: 16px !important;
+  margin-right: 10px;
+  color: black;
+}
+
+.MuiInput-underline:after {
+  border-bottom: #989898 !important;
+}
