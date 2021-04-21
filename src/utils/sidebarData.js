@@ -125,7 +125,7 @@ export default {
     {
       tag: "React",
       image:
-        "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       title: "React Project 1",
       caption: "A short description of my project",
       description: "This is my projects description.",
@@ -137,7 +137,8 @@ export default {
     },
     {
       tag: "React",
-      image: "",
+      image:
+        "https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       title: "React Project 2",
       caption: "A short description of my project",
       description: "This is my projects description.",
@@ -149,7 +150,8 @@ export default {
     },
     {
       tag: "JavaScript",
-      image: "",
+      image:
+        "https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       title: "Javascript Project 1",
       caption: "A short description of my project",
       description: "This is my projects description.",
@@ -161,7 +163,8 @@ export default {
     },
     {
       tag: "JavaScript",
-      image: "",
+      image:
+        "https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       title: "Javascript Project 2",
       caption: "A short description of my project",
       description: "This is my projects description.",
@@ -173,7 +176,8 @@ export default {
     },
     {
       tag: "Illustrator",
-      image: "",
+      image:
+        "https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       title: "Illustrator Project 1",
       caption: "A short description of my project",
       description: "This is my projects description.",

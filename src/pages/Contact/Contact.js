@@ -1,83 +1,18 @@
-import {
-  FormControl,
-  Grid,
-  Grow,
-  TextField,
-  Typography,
-} from "@material-ui/core";
 import React from "react";
+import { Grid, Grow, TextField, Typography } from "@material-ui/core";
+import SendIcon from "@material-ui/icons/Send";
+
 import CustomButton from "../../components/Button/Button";
 import sidebarData from "../../utils/sidebarData";
 import "./Contact.css";
-import emailjs from "emailjs-com";
+import ContactForm from "../../components/ContactForm/ContactForm";
 
 const Contact = () => {
-  const serviceID = "service_h4uv921";
-  const templateID = "template_7w8sqrs";
-  const userID = "user_J1wxj3vc3qRdIkvuhum0j";
-
-  function sendEmail(e) {
-    e.preventDefault();
-
-    emailjs.sendForm(serviceID, templateID, e.target, userID).then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-  }
-
   return (
     <Grid container spacing={6} className="section pt_45 pb_45">
       {/**Contact form */}
 
-      <Grow in timeout={1000}>
-        <Grid item xs={12} lg={7}>
-          <Grid container>
-            <Grid item className="section_title mb_30">
-              <span></span>
-              <h6 className="section_title_text">Contact form</h6>
-            </Grid>
-            <form onClick={sendEmail}>
-              <Grid item xs={12}>
-                <Grid container spacing={3}>
-                  <Grid item xs={12} sm={6}>
-                    <TextField
-                      required
-                      fullWidth
-                      name="name"
-                      label="Name"
-                    ></TextField>
-                  </Grid>
-                  <Grid item xs={12} sm={6}>
-                    <TextField
-                      required
-                      fullWidth
-                      name="email"
-                      label="E-mail"
-                    ></TextField>
-                  </Grid>
-                  <Grid item xs={12}>
-                    <TextField
-                      required
-                      fullWidth
-                      name="message"
-                      label="Message"
-                      multiline
-                      rows={5}
-                    ></TextField>
-                  </Grid>
-                  <Grid item xs={12}>
-                    <CustomButton className="contact_btn" text="Submit" />
-                  </Grid>
-                </Grid>
-              </Grid>
-            </form>
-          </Grid>
-        </Grid>
-      </Grow>
+      <ContactForm />
 
       {/**Contact information */}
       <Grow in timeout={2000}>

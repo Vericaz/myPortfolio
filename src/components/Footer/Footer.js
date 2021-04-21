@@ -2,6 +2,7 @@ import { Typography } from "@material-ui/core";
 import React from "react";
 
 import sidebarData from "../../utils/sidebarData";
+import ScrollToTop from "../ScrollBtn/ScrollBtn";
 
 import "./Footer.css";
 

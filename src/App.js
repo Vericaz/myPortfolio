@@ -9,6 +9,7 @@ import Resume from "./pages/Resume/Resume";
 import Contact from "./pages/Contact/Contact";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ScrollBtn from "./components/ScrollBtn/ScrollBtn";
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
           <Footer />
         </Grid>
       </Grid>
+
+      <ScrollBtn />
     </Container>
   );
 }
