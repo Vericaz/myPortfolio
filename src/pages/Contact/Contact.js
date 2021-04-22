@@ -1,8 +1,8 @@
 import React from "react";
 import { Grid, Grow, TextField, Typography } from "@material-ui/core";
-import SendIcon from "@material-ui/icons/Send";
+// import SendIcon from "@material-ui/icons/Send";
 
-import CustomButton from "../../components/Button/Button";
+// import CustomButton from "../../components/Button/Button";
 import sidebarData from "../../utils/sidebarData";
 import "./Contact.css";
 import ContactForm from "../../components/ContactForm/ContactForm";

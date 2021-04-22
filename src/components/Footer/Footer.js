@@ -2,7 +2,6 @@ import { Typography } from "@material-ui/core";
 import React from "react";
 
 import sidebarData from "../../utils/sidebarData";
-import ScrollToTop from "../ScrollBtn/ScrollBtn";
 
 import "./Footer.css";
 
@@ -14,8 +13,8 @@ const Footer = () => {
       </div>
       <div className="footer_right">
         <Typography className="footer_copyright">
-          Designed and Developed by Verica Zoksimovska
-          <br />
+          {/* Designed and Developed by Verica Zoksimovska
+          <br /> */}
           Clone idea from ©
           <a
             href="http://tavonline.net/html/mat/default/index.html"

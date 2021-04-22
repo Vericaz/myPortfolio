@@ -6,7 +6,7 @@ import { HomeRounded, Telegram } from "@material-ui/icons/";
 
 import sidebarData from "../../utils/sidebarData";
 
-import CustomButton from "../Button/Button";
+// import CustomButton from "../Button/Button";
 
 import { Nav, Navbar } from "react-bootstrap";
 
